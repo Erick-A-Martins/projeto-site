@@ -34,6 +34,8 @@ body {
     margin-left: 10px;
     text-decoration: none;
     color: black;
+    position: relative;
+    bottom: 10px;
 }
 
 #icon-menu {
@@ -41,7 +43,6 @@ body {
     width: 50px; 
     display: inline-block;
     position: relative;
-    bottom: -10px;
 }
 
 .main-menu-2 {
@@ -124,20 +125,3 @@ body {
 
 
 /* FIM CONTEUDO DO MEIO */
-
-/* INICIO RODAPE */
-
-.container-rodape {
-    display: flex;
-    height: 70px;
-    background-color: rgb(145, 117, 84);
-    border-top: 4px solid  rgb(0, 0, 0);
-}
-
-.box-rodape {
-    width: 50%;
-    /* border: 4px solid rebeccapurple; */
-}
-
-
-/* FIM RODAPE */

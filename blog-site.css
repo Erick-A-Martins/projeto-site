@@ -34,6 +34,8 @@ body {
     margin-left: 10px;
     text-decoration: none;
     color: black;
+    position: relative;
+    bottom: 10px;
 }
 
 #icon-menu {
@@ -41,7 +43,6 @@ body {
     width: 50px; 
     display: inline-block;
     position: relative;
-    bottom: -10px;
 }
 
 .main-menu-2 {
@@ -81,8 +82,6 @@ body {
 
 #tittle-mid {
     text-align: center;
-    border: 4px solid rgb(82, 65, 47);
-    background-color: rgb(82, 65, 47) ;
 }
 
 .tittle-classes {

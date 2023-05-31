@@ -45,7 +45,6 @@ body {
     width: 50px; 
     display: inline-block;
     position: relative;
-    bottom: -10px;
 }
 
 .main-menu-2 {
@@ -151,6 +150,23 @@ body {
 }
 
 
+#icon-d20 {
+    height: 60px;
+    width: 70px;
+    position: relative;
+    right: -470px;
+    top: -70px;
+}
+
+#text-wiki {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    margin-right: 5%;
+    position: relative;
+    left: -75px;
+}
+
 #text-dnd {
     display: inline-block;
     vertical-align: top;
@@ -251,26 +267,6 @@ body {
 
 /* FIM DO CONTEUDO DE BAIXO */
 
-
-/* INICIO DO CONTEUDO DO RODAPE */
-
-.container-rodape {
-    display: flex;
-    height: 70px;
-    background-color: rgb(145, 117, 84);
-    border-top: 4px solid  rgb(0, 0, 0);
-}
-
-.box-rodape {
-    width: 50%;
-    /* border: 4px solid rebeccapurple; */
-}
-
-/* @media (max-width:1650px) {
-    .box-list-mid {
-        width: 75%;
-    }
-} */
 
 @media (max-width:1589px) {
     .box-list-left-2 {
