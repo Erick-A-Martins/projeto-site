@@ -1,0 +1,143 @@
+/* Início do Código */
+
+.page {
+    background-color: rgb(209, 196, 169);
+}
+
+body {
+    margin: 0;
+}
+
+.texts {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+/* INÍCIO CLASSES E IDS DO MENU */
+
+.container-menu {
+    border-bottom: 3px solid black;
+    background-color: rgb(145, 117, 84);
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-menu-1 {
+    width: 30%;
+}
+
+#tittle {
+    font-family: 'Alkalami', serif;
+    font-family: 'MedievalSharp', cursive;  
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+#icon-menu {
+    height: 50px; 
+    width: 50px; 
+    display: inline-block;
+    position: relative;
+    bottom: -10px;
+}
+
+.main-menu-2 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-right: 200px;
+}
+
+.menu-4 {
+    padding: 0 40px;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    position: relative;
+    bottom: -5px;
+}
+/* FIM CLASSES E IDS DO MENU */
+
+
+/* INICIO CONTEUDO */
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.content-mid {
+    background-color:  rgb(145, 117, 84) ;
+    width: 50%;
+    border: 4px solid rgb(82, 65, 47);
+    margin: 10px;
+    padding: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.tittle-classes {
+    width: 50%;
+    text-align: left;
+}
+
+.text-classes {
+    width: 50%;
+    vertical-align: top;
+    text-align: left;
+}
+
+.icons-feats {
+    display: inline-block;
+}
+
+.icon-classes {
+    height: 50px; 
+    height: 50px;
+}
+
+.name-feats {
+    position:relative;
+    top: -15px;
+}
+
+.druida-texts {
+    color: rgb(177, 212, 123);
+}
+
+
+#class-img {
+    width: 40%;
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
+
+
+/* FIM CONTEUDO DO MEIO */
+
+/* INICIO RODAPE */
+
+.container-rodape {
+    display: flex;
+    height: 70px;
+    background-color: rgb(145, 117, 84);
+    border-top: 4px solid  rgb(0, 0, 0);
+}
+
+.box-rodape {
+    width: 50%;
+    /* border: 4px solid rebeccapurple; */
+}
+
+
+/* FIM RODAPE */

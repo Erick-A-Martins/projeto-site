@@ -1,0 +1,118 @@
+/* Início do Código */
+
+.page {
+    background-color: rgb(209, 196, 169);
+}
+
+body {
+    margin: 0;
+}
+
+.texts {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+/* INÍCIO CLASSES E IDS DO MENU */
+
+.container-menu {
+    border-bottom: 3px solid black;
+    background-color: rgb(145, 117, 84);
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-menu-1 {
+    width: 30%;
+}
+
+#tittle {
+    font-family: 'Alkalami', serif;
+    font-family: 'MedievalSharp', cursive;  
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+#icon-menu {
+    height: 50px; 
+    width: 50px; 
+    display: inline-block;
+    position: relative;
+    bottom: -10px;
+}
+
+.main-menu-2 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-right: 200px;
+}
+
+.menu-4 {
+    padding: 0 40px;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    position: relative;
+    bottom: -5px;
+}
+/* FIM CLASSES E IDS DO MENU */
+
+/* INICIO CONTEUDO POSTS */
+
+.container-posts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-posts {
+    background-color:  rgb(145, 117, 84) ;
+    width: 50%;
+    border: 4px solid rgb(82, 65, 47);
+    margin: 10px;
+    padding: 20px;
+}
+
+#tittle-mid {
+    text-align: center;
+    border: 4px solid rgb(82, 65, 47);
+    background-color: rgb(82, 65, 47) ;
+}
+
+.tittle-classes {
+    width: 100%;
+}
+
+.text-classes {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.classes-imgs {
+    height: 500px;
+    width: 40%;
+    display: inline-block;
+    position: relative;
+    bottom: 100px;
+}
+
+.posts-imgs {
+    display: block;
+    margin: 0 auto;
+
+}
+
+.dates {
+    width: 100%;
+    position: relative;
+    float: right;
+    text-align: right;
+}
+/* FIM CONTEUDO POSTS */
