@@ -72,18 +72,15 @@ body {
 .container-mid {
     display: flex;
     padding-bottom: 20px;
-    /* border: 5px solid lightcoral */
 }
 
 .box {
     width: 25%;
     position: relative;
-    /* border: 4px solid red; */
 }
 
 .box-mid {
     width: 75%;
-    /* border: 4px solid green; */
 }
 
 .box-list-left {
